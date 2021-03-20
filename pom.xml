@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cinstore</groupId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <artifactId>restfulapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restfulapi</name>
@@ -57,11 +57,11 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>compile</scope>
        </dependency>
-       <dependency>
+       <!-- <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>4.1.4.Final</version>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
