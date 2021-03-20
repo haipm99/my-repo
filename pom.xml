@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cinstore</groupId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <artifactId>restfulapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restfulapi</name>
@@ -60,7 +60,7 @@
        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>4.1.4.Final</version>
+            <version>5.0.1.Final</version>
         </dependency>
         
         <dependency>
