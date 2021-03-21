@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cinstore</groupId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <artifactId>restfulapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restfulapi</name>
