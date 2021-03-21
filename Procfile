@@ -1,1 +1,1 @@
-web: java -jar target/restfulapi-0.0.1-SNAPSHOT.war -port $PORT
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/demo-0.0.1-SNAPSHOT.jar
